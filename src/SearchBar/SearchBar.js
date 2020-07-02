@@ -9,7 +9,7 @@ export function SearchBar() {
                      <button className="button is-static is-medium">Search</button>
                 </p>
                 <p className="control">
-                    <input className={`input is-medium ${styles['input-control']}`} type="text" placeholder="burgers, barbers, spas, handyman"/>
+                    <input className={`input is-medium ${styles['input-control']}`} type="text" placeholder="burgers, barbers, spas, handymen"/>
                 </p>
                 <p className="control">
                      <button className="button is-static is-medium">NEAR</button>
@@ -17,6 +17,11 @@ export function SearchBar() {
                 <p className="control">
                     <input className="input is-medium" type="text" placeholder="Your Where"/>
                 </p>
+                <button className={`button is-medium ${styles['search-button']}`}>
+                    <span className="icon is-small">
+                        <i className="fas fa-search"></i>
+                    </span>
+                </button>
             </div>
         </div>
     );
