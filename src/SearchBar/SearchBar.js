@@ -18,7 +18,7 @@ export function SearchBar() {
                     <input className="input is-medium" type="text" placeholder="Your Where"/>
                 </p>
                 <button className={`button is-medium ${styles['search-button']}`}>
-                    <span className="icon is-small">
+                    <span className={`icon is-small ${styles['search-icon']}`}>
                         <i className="fas fa-search"></i>
                     </span>
                 </button>
